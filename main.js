@@ -8,7 +8,7 @@ window.addEventListener('scroll', () => {
         const sectionTop = section.offsetTop;
         // console.log(sectionTop)
         const sectionHeight = section.clientHeight;
-        if (pageYOffset >= (sectionTop) - sectionHeight/3 ){
+        if (scrollY >= (sectionTop) - sectionHeight/3 ){
             current = section.getAttribute('id');
         }
     })
