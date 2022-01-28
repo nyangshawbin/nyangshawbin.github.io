@@ -123,7 +123,7 @@
     padding-bottom: 60px;
 }
 #CONTACT{
-    background: url('../landingPage/images/gradienta2-unsplash.jpg') no-repeat;
+    background: url('./images/gradienta2-unsplash.jpg') no-repeat;
     background-size: cover;
     position: relative;
     background-position: 50% 45%;
