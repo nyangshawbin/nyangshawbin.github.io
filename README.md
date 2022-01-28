@@ -1,4 +1,4 @@
-## [Nyang Shaw Bin CV](nyangshawbin.github.io)
+## [Nyang Shaw Bin CV](https://nyangshawbin.github.io/)
 
 
 A landing page to introduce myself as well as to document my experiences and projects. <br>
