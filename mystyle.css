@@ -2,6 +2,10 @@
     width: 1000px;
 }
 
+.row{
+    padding-bottom: 10px;
+}
+
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
@@ -158,6 +162,11 @@
 }
 
 
+/* all images */
+/* img {
+    text-align: left;
+} */
+
 /* Logos */
 #nus_logo {
     width: auto;
@@ -175,17 +184,17 @@
 
 #dso_logo {
     width: auto;
-    height: 290px;
+    height: 130px;
 }
 
 #arc-logo {
     width: auto;
-    height: 110px;
+    height: 120px;
 }
 
 #rdr-logo {
     width: auto;
-    height: 245px;
+    height: 135px;
 }
 
 #zilingo-logo{
@@ -201,8 +210,6 @@
     object-position: 20% 0%;
 }
 #darpa {
-    /* width: auto;
-    height: 180px; */
     height: 200px;
     width: 310px;
     object-fit: cover; 
@@ -210,17 +217,13 @@
 }
 
 #drone-image{
-    /* width: auto;
-    height: 220px; */
     height: 200px;
-    width: 400px;
+    width: 300px;
     object-fit: cover; 
     object-position: 100% 0%;
 }
 #waterbloc {
-    /* width: auto;
-    height: 280px; */
-    width: 500px;
+    width: 400px;
     object-fit: cover; 
     object-position: 100% 0;
 }
