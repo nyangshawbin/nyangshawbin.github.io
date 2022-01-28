@@ -47,6 +47,11 @@
     font-size: 25px;
 }
 
+#profile_pic{
+    max-width: 50%; 
+    max-width: 20vh; /*50% of user's viewport height */
+}
+
 #fa-linkedin, #fa-github{
     border: 1px solid black;
     color: black ;
