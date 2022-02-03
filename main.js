@@ -1,8 +1,8 @@
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container .collapse ul li a');
 
-
 window.addEventListener('scroll', () => {
+
     let current = '';
     sections.forEach( section => {
         const sectionTop = section.offsetTop;
@@ -10,9 +10,10 @@ window.addEventListener('scroll', () => {
         const sectionHeight = section.clientHeight;
         if (scrollY >= (sectionTop) - sectionHeight/3 ){
             current = section.getAttribute('id');
+            // section.classList.add('visible')
         }
     })
-    console.log(current)
+    // console.log(current)
 
     navLi.forEach (li => {
         li.classList.remove('active');
