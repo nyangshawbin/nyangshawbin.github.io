@@ -1,5 +1,9 @@
-.container {
-    width: 1000px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 .row{
@@ -9,8 +13,6 @@
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
-}
-.navbar-default{
     background: #fff;
     border: none;
     margin: 0!important;
@@ -26,8 +28,15 @@
 .navbar-brand{
     color: #163e96;
     font-size: 30px;
-    font-weight: bold;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-nav{
+    color: #163e96;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 #collapsibleNavbar > ul > li.nav-link > a{
@@ -92,10 +101,7 @@
     padding-top: 80px;
     padding-bottom: 20px;
 }
-/* .bg-image{
-    padding-top: 80px;
-    padding-bottom: 20px;
-} */
+
 #EDUCATION {
     background-color: white;
     padding-top: 60px;
@@ -226,13 +232,6 @@
     width: 400px;
     object-fit: cover; 
     object-position: 100% 0;
-}
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 
