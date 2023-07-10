@@ -1,172 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
-.row{
-    padding-bottom: 10px;
+.row {
+  padding-bottom: 10px;
 }
 
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
-    background: #fff;
-    border: none;
-    margin: 0!important;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #fff;
+  border: none;
+  margin: 0 !important;
 }
 
 .navbar-sticky {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
-.navbar-brand{
-    color: #163e96;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 700;
+.navbar-brand {
+  color: #163e96;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.navbar-nav{
-    color: #163e96;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 400;
+.navbar-nav {
+  color: #163e96;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-#collapsibleNavbar > ul > li.nav-link > a{
-    color: gray;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
+#collapsibleNavbar > ul > li.nav-link > a {
+  color: gray;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 #collapsibleNavbar > ul > li.nav-link > a:hover {
-    color: #163e96;
+  color: #163e96;
 }
 
-#collapsibleNavbar > ul > li > a.active{
-    color: #163e96;
+#collapsibleNavbar > ul > li > a.active {
+  color: #163e96;
 }
 
-#about-me{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 25px;
+#about-me {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
-#profile_pic{
-    max-width: 50%; 
-    max-width: 20vh; /*50% of user's viewport height */
+#profile_pic {
+  max-width: 50%;
+  max-width: 20vh; /*50% of user's viewport height */
 }
 
-#fa-linkedin, #fa-github{
-    border: 1px solid black;
-    color: black ;
-    text-align: center;
-    height: 30px;
-    line-height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    font-size: 15px;
+#fa-linkedin,
+#fa-github {
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 15px;
 }
 
-#fa-linkedin:hover, #fa-github:hover{
-    
-    border: 1px solid black;
-    color:  white ;
-    background-color: black;
+#fa-linkedin:hover,
+#fa-github:hover {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
 }
-
 
 /* body title and descriptions */
-#item-title{
-    font-weight: bold;
+#item-title {
+  font-weight: bold;
 }
-#item-description{
-    font-style: italic;
+#item-description {
+  font-style: italic;
 }
 
 /* Sections */
-#HOME{
-    background-image: url('./images/gradienta-unsplash.jpg');
-    background-size: cover;
-    background-position: 50% 45%;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 20px;
+#HOME {
+  background-image: url('./images/gradienta-unsplash.jpg');
+  background-size: cover;
+  background-position: 50% 45%;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 #EDUCATION {
-    background-color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #EXPERIENCES {
-    background-color: #f8f8f8;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: #f8f8f8;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #PROJECTS {
-    background-color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #SKILLS {
-    background-color: #f8f8f8;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: #f8f8f8;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #RESUME {
-    background-color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-#CONTACT{
-    background: url('./images/gradienta2-unsplash.jpg') no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: 50% 45%;
-    padding-top: 40px;
-    padding-bottom: 40px;    
+#CONTACT {
+  background: url('./images/gradienta2-unsplash.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 50% 45%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-#contact-section{
-    color: white;
-}
-
-#contact-details{
-    background: #163e96;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-top: 6px;
-    margin-right: 10px;
+#contact-section {
+  color: white;
 }
 
-#contact-section > p > a{
-    color: white;
-    text-decoration: none;
+#contact-details {
+  background: #163e96;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 10px;
 }
 
-#contact-section > p > a:hover{
-    font-size: 105%;
-    color: white;
-    text-decoration: none;
-    
+#contact-section > p > a {
+  color: white;
+  text-decoration: none;
 }
 
-#FOOTER{
-    padding-top: 10px;
+#contact-section > p > a:hover {
+  font-size: 105%;
+  color: white;
+  text-decoration: none;
 }
 
+#FOOTER {
+  padding-top: 10px;
+}
 
 /* all images */
 /* img {
@@ -175,65 +172,68 @@
 
 /* Logos */
 #nus_logo {
-    width: auto;
-    height: 110px;
+  width: auto;
+  height: 110px;
 }
 #idp_logo {
-    width: auto;
-    height: 180px;
+  width: auto;
+  height: 180px;
 }
 
 #astar_logo {
-    width: auto;
-    height: 130px;
+  width: auto;
+  height: 130px;
 }
 
 #dso_logo {
-    width: auto;
-    height: 130px;
+  width: auto;
+  height: 120px;
 }
 
 #arc-logo {
-    width: auto;
-    height: 120px;
+  width: auto;
+  height: 120px;
 }
 
 #rdr-logo {
-    width: auto;
-    height: 135px;
+  width: auto;
+  height: 135px;
 }
 
-#zilingo-logo{
-    width: auto;
-    height: 170px;
+#zilingo-logo {
+  width: auto;
+  height: 170px;
 }
 
+#circles_logo {
+  width: auto;
+  height: 50px;
+}
 
 /* Project images */
 #fyp {
-    width: 310px;
-    object-fit: cover; 
-    object-position: 20% 0%;
+  width: 310px;
+  object-fit: cover;
+  object-position: 20% 0%;
 }
 #darpa {
-    height: 200px;
-    width: 310px;
-    object-fit: cover; 
-    object-position: 20% 0%;
+  height: 200px;
+  width: 310px;
+  object-fit: cover;
+  object-position: 20% 0%;
 }
 
-#drone-image{
-    height: 200px;
-    width: 300px;
-    object-fit: cover; 
-    object-position: 100% 0%;
+#drone-image {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  object-position: 100% 0%;
 }
 #waterbloc {
-    width: 400px;
-    object-fit: cover; 
-    object-position: 100% 0;
+  width: 400px;
+  object-fit: cover;
+  object-position: 100% 0;
 }
-
 
 /* Animations */
 /* .inFocus{
@@ -247,4 +247,3 @@
     0% {opacity:0;}
     100% {opacity:1;}
   } */
-
